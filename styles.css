@@ -2,7 +2,7 @@
         font-family:'garamond-reg-12';
         src: url(fonts/EBGaramond-0.016/ttf/EBGaramondSC12-Regular.ttf);
     }
-
+a {color: gold;}
 a:visited { text-decoration: none; color:gold; }
 a:hover { text-decoration: none; color:gold; }
 a:focus { text-decoration: none; color:yellow; }
@@ -19,6 +19,5 @@ body {
     font-size: x-large;
     .links {
         list-style-type: none; 
-        color: gold;
     }
 }
