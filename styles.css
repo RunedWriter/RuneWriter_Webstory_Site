@@ -19,5 +19,6 @@ body {
     font-size: x-large;
     .links {
         list-style-type: none; 
+        color: gold;
     }
 }
