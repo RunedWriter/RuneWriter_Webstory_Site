@@ -4,7 +4,7 @@
     }
 
 a:visited { text-decoration: none; color:gold; }
-a:hover { text-decoration: none; color:blue; }
+a:hover { text-decoration: none; color:gold; }
 a:focus { text-decoration: none; color:yellow; }
 a:hover, a:active { text-decoration: none; color:white }
 body {
