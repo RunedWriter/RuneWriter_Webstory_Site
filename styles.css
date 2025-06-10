@@ -1,0 +1,18 @@
+@font-face {
+        font-family:'garamond-reg-12';
+        src: url(fonts/EBGaramond-0.016/ttf/EBGaramondSC12-Regular.ttf);
+    }
+a:visited { text-decoration: none; color:gold; }
+a:hover { text-decoration: none; color:blue; }
+a:focus { text-decoration: none; color:yellow; }
+a:hover, a:active { text-decoration: none; color:white }
+body {
+    background-image: url(images/artdeco_bg.png);
+    text-align: center;
+    color: white;
+    font-family:'garamond-reg-12', sans-serif;
+    font-size: larger;
+    .links {
+        list-style-type: none; 
+    }
+}
