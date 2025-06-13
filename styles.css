@@ -7,17 +7,26 @@ a:visited { text-decoration: none; color:gold; }
 a:hover { text-decoration: none; color:gold; }
 a:focus { text-decoration: none; color:yellow; }
 a:hover, a:active { text-decoration: none; color:white }
+li {
+    list-style-type: none; 
+}
 body {
     background-image: url(images/artdeco_bg.png);
     padding-left:7%;
     padding-right:7%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 4%;
+    padding-bottom: 4%;
     text-align: center;
     color: white;
-    font-family:'garamond-reg-12', sans-serif;
+    font-family: Tahoma, Geneva, Verdana,;
     font-size: x-large;
-    .links {
-        list-style-type: none; 
-    }
+}
+.body{
+    background-color: #181818;
+    padding: 2%;
+    border-radius: 25px;
+}
+.header,.footer{
+    display: flex;
+    justify-content: space-around;
 }
